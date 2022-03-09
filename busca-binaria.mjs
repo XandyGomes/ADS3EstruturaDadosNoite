@@ -19,7 +19,7 @@ function buscaBinaria(vetor, valorBusca) {
     }
     return -1
 }
-console.log('Posição de ++: ', buscaBinaria(num, 99 ))
+// console.log('Posição de 22 ', buscaBinaria(num, 22 ))
 
 import {nomes} from './data/vetor-nomes.mjs'
 

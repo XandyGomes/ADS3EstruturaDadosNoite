@@ -1,4 +1,3 @@
-let nums = [ 77, 44, 22, 33, 99, 55, 88, 0, 66, 11 ]
 let pass, comp, trocas
 function bubbleSort(vetor) {
     pass = 0, comp = 0, trocas = 0
@@ -16,6 +15,12 @@ function bubbleSort(vetor) {
         }
     } while(trocou)
 }
-bubbleSort(nums)
-console.log(nums)
+// let nums = [ 77, 44, 22, 33, 99, 55, 88, 0, 66, 11 ]
+// bubbleSort(nums)
+// console.log(nums)
+// console.log({pass, comp, trocas})
+
+import {nomes} from './data/nomes-desord.mjs'
+bubbleSort(nomes)
+console.log(nomes)
 console.log({pass, comp, trocas})

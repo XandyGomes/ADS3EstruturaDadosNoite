@@ -1,5 +1,3 @@
-let nums = [77, 44, 22, 33, 99, 55, 88, 0, 66, 11]
-
 function selectionSort(vetor){
     for(let posSel=0; posSel<vetor.length -1;posSel++){
         let posMenor = posSel + 1
@@ -15,3 +13,4 @@ function selectionSort(vetor){
 }
 selectionSort(nums)
 console.log(nums)
+let nums = [77, 44, 22, 33, 99, 55, 88, 0, 66, 11]

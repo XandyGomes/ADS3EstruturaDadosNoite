@@ -14,5 +14,15 @@ function selectionSort(vetor, fnComp){
 
 import { objMotoristas } from './data/motoristas-obj-desord.mjs'
 
-selectionSort(objMotoristas, (elem1,elem2) => elem1.nome_motorista > elem2.nome_motorista)
+// selectionSort(objMotoristas, (elem1,elem2) => elem1.nome_motorista > elem2.nome_motorista)
+// console.log(objMotoristas)
+
+selectionSort(objMotoristas, (elem1,elem2) => {
+    if(elem1.razao_social === elem2.razao_social){
+        return elem1.nome_motorista > elem2.nome_motorista
+    }else{
+        return elem1.razao_social > elem2.razao_social
+    }
+})
+
 console.log(objMotoristas)

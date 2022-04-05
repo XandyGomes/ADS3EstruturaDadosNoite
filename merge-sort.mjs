@@ -17,22 +17,17 @@ function mergeSort(vetor){
     while(posEsq < vetEsq.length && posDir < vetDir.length){
         if(vetEsq[posEsq] < vetDir[posDir]){
             vetRes.push(vetEsq[posEsq]);
-        
             posEsq++;
         }else{
             vetRes.push(vetDir[posDir]);
-                    posDir++;
+            posDir++;
         }
     }
     let sobra
     if(posEsq < posDir){
-        
         sobra = vetEsq.slice(posEsq);
-        console.log("sobra",sobra)
-
     }else{
         sobra = vetDir.slice(posDir);
-        console.log("sobra",sobra)
     }
     return [...vetRes, ...sobra];
 }

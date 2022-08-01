@@ -50,12 +50,12 @@ function buscaBinaria(vetor, fnComp) {
 */
 
 /*function comparar(valorMeio) {
-    if('FAUSTO' === valorMeio.first_name) return 0
-    else if('FAUSTO' > valorMeio.first_name) return 1
+    if('ALEXANDRE' === valorMeio.first_name) return 0
+    else if('ALEXANDRE' > valorMeio.first_name) return 1
     else return -1
 }*/
 
-function comparar(valorMeio, valorBusca = 'FAUSTO') {
+function comparar(valorMeio, valorBusca = 'ALEXANDRE') {
     if(valorBusca === valorMeio.first_name) return 0
     else if(valorBusca > valorMeio.first_name) return 1
     else return -1
@@ -63,7 +63,7 @@ function comparar(valorMeio, valorBusca = 'FAUSTO') {
 
 import { objNomes } from './data/vetor-obj-nomes.mjs'
 
-console.log('Posição de first_name === FAUSTO', buscaBinaria(objNomes, comparar))
+console.log('Posição de first_name === ALEXANDRE', buscaBinaria(objNomes, comparar))
 console.log('Comparações:', comps)
 
 console.log('Posição de first_name === ULISSES', buscaBinaria(objNomes, 

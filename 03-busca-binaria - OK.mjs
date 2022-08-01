@@ -61,7 +61,7 @@ console.log('Posição de 81:', buscaBinaria(nums, 81), 'comps:', comps)
 
 import { nomes } from './data/vetor-nomes.mjs'
 
-console.log(`Posição de FAUSTO: ${buscaBinaria(nomes, 'FAUSTO')}, comps: ${comps}`)
+console.log(`Posição de ALEXANDRE: ${buscaBinaria(nomes, 'ALEXANDRE')}, comps: ${comps}`)
 console.log(`Posição de ADAMASTOR: ${buscaBinaria(nomes, 'ADAMASTOR')}, comps: ${comps}`)
 console.log(`Posição de ZULEIDE: ${buscaBinaria(nomes, 'ZULEIDE')}, comps: ${comps}`)
 console.log(`Posição de INSTAGRAMILDA: ${buscaBinaria(nomes, 'INSTAGRAMILDA')}, comps: ${comps}`)
